@@ -1,0 +1,19 @@
+import React from 'react';
+
+const Show = () =>
+{
+  const ShowMessage = () =>
+  {
+    alert("Message from JavaScript Alert!");
+    console.log("Message to developer")
+  };
+  return(
+    <div>
+      <h1>Let see the output of JavaScript</h1>
+      
+     
+      <button onClick={() => ShowMessage()}>Submit</button>
+    </div>
+  );
+};
+export default Show;
