@@ -1,0 +1,24 @@
+import React from 'react'
+
+class Showmessage extends React.Component
+{
+    constructor(props)
+    {
+        super(props);
+        this.state={
+            button:"ShowComponent"
+        }
+    }
+    click =()=>{
+        alert("Hi! How are you?");
+        this.setState((pre)=>({button:pre.button==='ShowComponent'? 'HideComponent':'ShowComponent'}))
+
+    }
+    render()
+    {
+        return(
+            <button onClick={this.click}>{this.state.button}</button>
+        )
+    }
+}
+export default Showmessage
