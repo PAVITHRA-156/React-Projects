@@ -1,0 +1,12 @@
+.side{
+    margin-left: 250px;
+     background-image: url('https://www.shutterstock.com/image-photo/black-white-high-contrast-foliage-600nw-1823676911.jpg'); 
+
+     background-position: center;
+     background-size: cover;
+}
+.text {
+    margin-top: 50px;
+    text-align: center;
+
+}
