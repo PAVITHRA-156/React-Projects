@@ -1,0 +1,57 @@
+/* features.css */
+
+.features-container {
+    padding: 40px;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ZIVJA2sH7ufzVE_IrxGF5-jIHfQzPnn_-w&s');
+   background-position: center;
+   background-size: cover;
+    height: 200vh;
+    text-align: center;
+}
+
+.features-title {
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-item {
+    margin-top: 150px;
+    width: 300px;
+   
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+}
+
+.feature-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.feature-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
