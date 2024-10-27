@@ -1,0 +1,65 @@
+/* .tab{
+   justify-content: center;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.img{
+    height: 500px;
+    width: 500px;
+    margin-left: 900px;
+    
+}
+.tb{
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.img1{
+    margin-left: 500px;
+    height: 200px;
+} */
+ body{
+}
+.mana
+{
+
+  background-image: url('https://img.freepik.com/premium-photo/cityscape-perspective_441990-44008.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.mn {
+  padding: 20px;
+  margin-left: 300px;
+    
+   
+  }
+  
+  .tb {
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  .tab {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .ls
+   {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+ 
+  
+  .img1{
+    margin-top: 80px;
+    height: 500px;
+   width: 500px;
+     max-width: 100%; 
+     height: auto; 
+    /* border: 2px solid #ccc;  */
+    padding: 10px;  
+  }
+  
